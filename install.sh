@@ -120,5 +120,10 @@ sudo snap install postman
 echo "************Postman installed ************"
 echo
 
+echo "************XCA************"
+sudo apt install xca
+echo "************XCA installed ************"
+echo
+
 # sudo apt --fix-broken install
 # sudo snap install node --classic --channel=14 : will have npm, yarn commands
