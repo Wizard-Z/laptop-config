@@ -1,3 +1,4 @@
+sudo apt-add-repository ppa:jtaylor/keepass
 sudo apt-get update
 sudo apt-get -y upgrade
 sudo apt-get install snapd
@@ -121,12 +122,13 @@ echo "************Postman installed ************"
 echo
 
 echo "************Keypass************"
-sudo snap install keepassxc
+# sudo snap install keepassxc
+sudo apt-get install keepass2 -y
 echo "************Keypass installed ************"
 echo
 
 echo "************XCA************"
-# sudo apt install xca
+sudo apt install xca
 echo "************XCA installed ************"
 echo
 
