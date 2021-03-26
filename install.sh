@@ -120,6 +120,11 @@ sudo snap install postman
 echo "************Postman installed ************"
 echo
 
+echo "************Keypass************"
+sudo snap install keepassxc
+echo "************Keypass installed ************"
+echo
+
 echo "************XCA************"
 sudo apt install xca
 echo "************XCA installed ************"
