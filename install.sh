@@ -126,7 +126,7 @@ echo "************Keypass installed ************"
 echo
 
 echo "************XCA************"
-sudo apt install xca
+# sudo apt install xca
 echo "************XCA installed ************"
 echo
 
