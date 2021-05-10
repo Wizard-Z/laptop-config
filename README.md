@@ -1,4 +1,11 @@
 # laptop-config
+### steps to dist-upgrade
+---
+open a terminal using(press ALT+CTRL+T) then run the below commands
+```bash    
+    sudo apt update && sudo apt dist-upgrade
+    sudo update-manager
+```
 ### Steps to  install sdkman
 ---
 open a terminal using(press ALT+CTRL+T) then run the below commands
