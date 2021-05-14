@@ -107,14 +107,19 @@ echo "************oh my zsh installed************"
 echo
 
 echo "************IntelliJ Community************"
-sudo snap install intellij-idea-community --classic
-echo "************IntelliJ Community installed ************"
 echo
+echo "Downloading tar file................."
+wget -P ~/Downloads/ https://download.jetbrains.com/idea/ideaIC-2021.1.1.tar.gz
+sudo tar -xzf ~/Downloads/ideaIC-2021.1.1.tar.gz -C /opt
+
+# sudo snap install intellij-idea-community --classic
+echo "************IntelliJ Community installed ************"
 
 
-echo "************IntelliJ Ultimate************"
-sudo snap install intellij-idea-ultimate --classic
-echo "************IntelliJ Ultimate installed ************"
+echo "***************Skipping IntelliJ Ultimate Installation************************"
+# echo "************IntelliJ Ultimate************"
+# sudo snap install intellij-idea-ultimate --classic
+# echo "************IntelliJ Ultimate installed ************"
 echo
 
 echo "************Vs-Code************"
