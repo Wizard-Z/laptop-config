@@ -1,4 +1,5 @@
 sudo apt-add-repository ppa:jtaylor/keepass
+sudo apt-add-repository universe
 sudo apt-get update
 sudo apt-get -y upgrade
 sudo apt-get install snapd
@@ -95,6 +96,11 @@ sudo dpkg -i mongodb-compass_1.26.0_amd64.deb
 echo "************mongo compass installed************"
 echo
 
+echo "************Gnome-tweeks  ************"
+sudo apt install gnome-tweak-tool
+echo "************Gnome-tweeks  complete************"
+echo
+
 echo "************oh my zsh installation************"
 sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
 echo "************oh my zsh installed************"
@@ -130,7 +136,7 @@ echo
 echo "************XCA************"
 sudo apt install xca
 echo "************XCA installed ************"
-echo
+
 
 # sudo apt --fix-broken install
 # sudo snap install node --classic --channel=14 : will have npm, yarn commands
