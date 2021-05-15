@@ -3,14 +3,18 @@ sudo apt-add-repository universe
 sudo apt-get update
 sudo apt-get -y upgrade
 sudo apt-get install snapd
-echo
+echo 
+echo "************Zoom installation************
+sudo snap install zoom-client
+echo "************zoom ************
+echo 
+
 echo "************node and npm installation************"
 sudo snap install node --classic --channel=14 
 # sudo apt-get -y install nodejs
 # sudo apt-get -y install npm
 echo "************node and npm installed************"
 echo
-
 
 echo "************git installation************"
 sudo apt-get -y install git-all
