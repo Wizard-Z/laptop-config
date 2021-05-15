@@ -4,6 +4,9 @@ sudo apt-get update
 sudo apt-get -y upgrade
 sudo apt-get install snapd
 echo 
+echo "************Zoom installation************"
+sudo snap install zoom-client
+echo "************zoom ************"
 
 echo 
 
