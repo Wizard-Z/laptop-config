@@ -6,7 +6,7 @@ sudo apt-get install snapd
 echo 
 echo "************Zoom installation************
 sudo snap install zoom-client
-echo "************zoom ************
+echo "************zoom ************"
 echo 
 
 echo "************node and npm installation************"
