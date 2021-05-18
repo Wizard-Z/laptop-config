@@ -43,7 +43,7 @@ echo "************docker installation************"
 #  $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 #sudo apt-get -y install docker-ce docker-ce-cli containerd.io
 # to run docker as non root.
-sudo apt-get install docker.io
+sudo apt-get install -y docker.io
 sudo groupadd docker
 echo "Adding user"
 sudo usermod -aG docker $USER
