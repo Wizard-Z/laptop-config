@@ -109,7 +109,7 @@ echo "************mongo compass installed************"
 echo
 
 echo "************Gnome-tweeks  ************"
-sudo apt install gnome-tweak-tool
+sudo apt install -y  gnome-tweak-tool
 echo "************Gnome-tweeks  complete************"
 echo
 
