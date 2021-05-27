@@ -23,7 +23,6 @@ printf "\n\nCloning Thanos... \n\n"
 # mkdir thanos && cd thanos
 # git clone  https://bitbucket.axisb.com/scm/than/abhi-bridge.git
 # git clone https://bitbucket.axisb.com/scm/than/auth-service.git
-# git clone http://bitbucket.axisb.com/scm/than/axis-ui-components.git
 # git clone https://bitbucket.axisb.com/scm/than/axis-ui-components.git
 # git clone https://bitbucket.axisb.com/scm/than/axis-ui-theme.git
 # git clone https://bitbucket.axisb.com/scm/than/backend-debug-service.git
