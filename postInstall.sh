@@ -129,6 +129,7 @@ printf "\n\nCloning testing... \n\n"
 ###
 #DOCKER_COMPOSE
 ####
+# sudo apt-get docker-compose
 # https://stackoverflow.com/questions/60554679/docker-compose-must-disable-firewall-and-restart-docker-service-when-docker-com
 # iptables --list-rules | grep '\-N\ DOCKER'
 # sudo iptables --list-rules | grep '\-N\ DOCKER'
