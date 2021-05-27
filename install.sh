@@ -155,6 +155,13 @@ echo "************XCA************"
 sudo apt install xca
 echo "************XCA installed ************"
 
+echo "************docker compose************"
+sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
+printf "\n\n"
+docker -v
+echo "************docker compose installed ************"
+
 
 # sudo apt --fix-broken install
 # sudo snap install node --classic --channel=14 : will have npm, yarn commands
