@@ -14,7 +14,7 @@ printf "\n\n Adding certificates..\n\n"
 
 printf "\n\n Docker-compose \n\n Add the text in daemon.json"
 # {
-#   "insecure-registries" : ["artifactory.dev.axisb.com"]
+#   "insecure-registries" : ["artifactory.dev.axisb.com","artifactory.axisb.com"]
 # }
 # sudo subl /etc/docker/daemon.json
 ## git
