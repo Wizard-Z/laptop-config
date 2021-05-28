@@ -11,6 +11,9 @@ printf "\n\n Adding certificates..\n\n"
 # printf "\n\n Git configs..\n\n"
 # git config --global credential.helper 'cache --timeout=36000'
 # git config --global http.sslVerify false
+# git config --global user.email "sourabh.choubey@axisbank.com"
+# git config --global user.name "Sourabh Choubey"
+
 
 printf "\n\n Docker-compose \n\n Add the text in daemon.json"
 # {
