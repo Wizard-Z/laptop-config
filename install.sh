@@ -12,9 +12,9 @@ echo "************zoom ************"
 echo 
 
 echo "************node and npm installation************"
-sudo snap install node --classic --channel=14 
-# sudo apt-get -y install nodejs
-# sudo apt-get -y install npm
+# sudo snap install node --classic --channel=14 
+sudo apt-get -y install nodejs
+sudo apt-get -y install npm
 echo "************node and npm installed************"
 echo
 
@@ -84,16 +84,16 @@ echo "************helm installed************"
 echo 
 
 echo "************mongo installation************"
-sudo apt-get -y install gnupg
-wget -qO - https://www.mongodb.org/static/pgp/server-4.4.asc | sudo apt-key add -
-echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu focal/mongodb-org/4.4 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.4.list
+# sudo apt-get -y install gnupg
+# wget -qO - https://www.mongodb.org/static/pgp/server-4.4.asc | sudo apt-key add -
+# echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu focal/mongodb-org/4.4 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.4.list
 sudo apt-get install -y mongodb-org
 
-echo "mongodb-org hold" | sudo dpkg --set-selections
-echo "mongodb-org-server hold" | sudo dpkg --set-selections
-echo "mongodb-org-shell hold" | sudo dpkg --set-selections
-echo "mongodb-org-mongos hold" | sudo dpkg --set-selections
-echo "mongodb-org-tools hold" | sudo dpkg --set-selections
+# echo "mongodb-org hold" | sudo dpkg --set-selections
+# echo "mongodb-org-server hold" | sudo dpkg --set-selections
+# echo "mongodb-org-shell hold" | sudo dpkg --set-selections
+# echo "mongodb-org-mongos hold" | sudo dpkg --set-selections
+# echo "mongodb-org-tools hold" | sudo dpkg --set-selections
 
 echo "************mongo installed************"
 echo 
