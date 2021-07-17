@@ -18,7 +18,7 @@ open a terminal using(press ALT+CTRL+T) then run the below commands
 open a terminal using(press ALT+CTRL+T) then run the below commands
 ```bash  
 	chmod 777 sdk_install.sh
-	./sdk_install.sh
+	source sdk_install.sh
 ```
 
 
