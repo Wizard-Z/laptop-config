@@ -109,16 +109,6 @@ sudo dpkg -i mongodb-compass_1.26.0_amd64.deb
 echo "************mongo compass installed************"
 echo
 
-echo "************Gnome-tweeks  ************"
-sudo apt install -y  gnome-tweak-tool
-echo "************Gnome-tweeks  complete************"
-echo
-
-echo "************oh my zsh installation************"
-sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
-echo "************oh my zsh installed************"
-echo
-
 echo "************IntelliJ Community************"
 echo
 echo "Downloading tar file................."
@@ -146,14 +136,14 @@ echo "************Postman installed ************"
 echo
 
 echo "************Keypass************"
-# sudo snap install keepassxc
-sudo apt-get install keepass2 -y
+sudo apt install keepassxc
+# sudo apt-get install keepass2 -y
 echo "************Keypass installed ************"
 echo
 
-echo "************XCA************"
-sudo apt install xca
-echo "************XCA installed ************"
+# echo "************XCA************"
+# sudo apt install xca
+# echo "************XCA installed ************"
 
 echo "************docker compose************"
 sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
