@@ -1,3 +1,4 @@
+#!/bin/bash
 sudo apt-add-repository ppa:jtaylor/keepass
 sudo apt-add-repository universe
 sudo apt-get update
