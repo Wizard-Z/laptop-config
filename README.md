@@ -28,7 +28,7 @@ open a terminal using(press ALT+CTRL+T) then run the below commands
 open a terminal using(press ALT+CTRL+T) then run the below commands
 ```bash
 	chmod 777 install.sh
-	sudo ./install.sh
+	./install.sh
 ```
 press y  whereever it asks.Except for oh my Zsh for default terminal
 ### 4. Steps to run versions.sh
@@ -36,7 +36,7 @@ press y  whereever it asks.Except for oh my Zsh for default terminal
 open a terminal using(press ALT+CTRL+T) then run the below commands
 ```bash
 	chmod 777 versions.sh
-    sudo ./versions.sh
+	./versions.sh
 ```
 ### Steps to set env_variables
 ---
