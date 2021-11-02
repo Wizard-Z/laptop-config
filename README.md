@@ -1,19 +1,19 @@
 # laptop-config
-### steps to dist-upgrade
+### 0. steps to dist-upgrade
 ---
 open a terminal using(press ALT+CTRL+T) then run the below commands
 ```bash    
     sudo apt update && sudo apt dist-upgrade
     sudo update-manager
 ```
-### Steps to  install sdkman
+### 1. Steps to  install sdkman(for java, gradle, Kotlin)
 ---
 open a terminal using(press ALT+CTRL+T) then run the below commands
 ```bash    
     curl -s "https://get.sdkman.io" | bash
     source "$HOME/.sdkman/bin/sdkman-init.sh"
 ```
-### Steps to run sdk_install.sh
+### 2. Steps to run sdk_install.sh
 ---
 open a terminal using(press ALT+CTRL+T) then run the below commands
 ```bash  
@@ -22,13 +22,8 @@ open a terminal using(press ALT+CTRL+T) then run the below commands
 ```
 
 
-### Steps to install zsh:
----
-open a terminal using(press ALT+CTRL+T) then run the below commands
-```bash 
-    sudo apt-get -y install zsh
-```
-### Steps to run install.sh
+
+### 3. Steps to run install.sh
 ---
 open a terminal using(press ALT+CTRL+T) then run the below commands
 ```bash
@@ -36,7 +31,7 @@ open a terminal using(press ALT+CTRL+T) then run the below commands
 	sudo ./install.sh
 ```
 press y  whereever it asks.Except for oh my Zsh for default terminal
-### Steps to run versions.sh
+### 4. Steps to run versions.sh
 ---
 open a terminal using(press ALT+CTRL+T) then run the below commands
 ```bash
