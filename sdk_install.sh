@@ -1,5 +1,7 @@
 #!/bin/bash
-. $HOME/.sdkman/bin/sdkman-init.sh
+source "$HOME/.sdkman/bin/sdkman-init.sh"
+sdk version
+
 echo "************java installation************"
 sdk install java 11.0.9.hs-adpt
 echo "************java installed************"
