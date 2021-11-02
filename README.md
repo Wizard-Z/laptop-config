@@ -6,14 +6,14 @@ open a terminal using(press ALT+CTRL+T) then run the below commands
     sudo apt update && sudo apt dist-upgrade
     sudo update-manager
 ```
-### 1. Steps to  install sdkman(for java, gradle, Kotlin)
+### 1. Steps to  install sdkman
 ---
 open a terminal using(press ALT+CTRL+T) then run the below commands
 ```bash    
-    curl -s "https://get.sdkman.io" | bash
-    source "$HOME/.sdkman/bin/sdkman-init.sh"
+    chmod 777 sdk_install.sh
+    sudo ./sdkmanInstall.sh
 ```
-### 2. Steps to run sdk_install.sh
+### 2. Steps to run sdk_install.sh (for java, gradle, Kotlin)
 ---
 open a terminal using(press ALT+CTRL+T) then run the below commands
 ```bash  
