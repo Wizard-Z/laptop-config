@@ -84,9 +84,11 @@ echo "************helm installed************"
 echo 
 
 echo "************mongo installation************"
-# sudo apt-get -y install gnupg
-# wget -qO - https://www.mongodb.org/static/pgp/server-4.4.asc | sudo apt-key add -
-# echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu focal/mongodb-org/4.4 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.4.list
+# https://docs.mongodb.com/v4.4/tutorial/install-mongodb-on-ubuntu/
+sudo apt-get -y install gnupg
+wget -qO - https://www.mongodb.org/static/pgp/server-4.4.asc | sudo apt-key add -
+echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu focal/mongodb-org/4.4 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.4.list
+sudo apt-get update
 sudo apt-get install -y mongodb-org
 
 # echo "mongodb-org hold" | sudo dpkg --set-selections
@@ -112,10 +114,9 @@ echo
 echo "************IntelliJ Community************"
 echo
 echo "Downloading tar file................."
-wget -P ~/Downloads/ https://download.jetbrains.com/idea/ideaIC-2021.1.1.tar.gz
-sudo tar -xzf ~/Downloads/ideaIC-2021.1.1.tar.gz -C /opt
+wget -P ~/Downloads/ https://download.jetbrains.com/idea/ideaIC-2021.2.3.tar.gz
+sudo tar -xzf ~/Downloads/ideaIC-2021.2.3.tar.gz -C /opt
 
-# sudo snap install intellij-idea-community --classic
 echo "************IntelliJ Community installed ************"
 
 
